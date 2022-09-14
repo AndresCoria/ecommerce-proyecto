@@ -6,6 +6,7 @@
   text-decoration: none;
 }
 
+
 .contenedor {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -82,8 +83,13 @@
 }
 
 @media (max-width:991px) {
+  body {
+    position: fixed;
+  }
+
   .contenedor{
     padding: 20px;
+    /* position: fixed; */
   }
 
   .contenedor label {
