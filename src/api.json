@@ -1,0 +1,35 @@
+[
+  {
+    "price": 500,
+    "id": 1,
+    "title": "counter-strike 1.6",
+    "img": "/images/cs_banner.jpg",
+    "categoria": "1.6",
+    "descripcion": "Servidores de Counter Strike 1.6 de 1000, 500 y 300 fps. Panel TCAdmin con acceso total. Rehlds, Metamod, Regame y AmxmodX actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques, acceso Rcon y soporte las 24hs"
+  },
+  {
+    "price": 500,
+    "id": 2,
+    "title": "counter-strike: source",
+    "img": "/images/css_banner.jpg",
+    "categoria": "css",
+    "descripcion": "Servidores de Counter Strike Source de 100 y 64 Tics. Panel TCAdmin con acceso total. Sourcemod, Metamod Source actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
+  },
+  {
+    "price": 500,
+    "id": 3,
+    "title": "counter-strike: global offensive",
+    "img": "/images/csgo_banner.jpg",
+    "categoria": "csgo",
+    "descripcion": "Servidores de Counter Strike Global Offensive de 128, 100 y 64 Tics. Panel TCAdmin con acceso total. Sourcemod, Metamod Source actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
+  },
+  {
+    "price": 500,
+    "id": 4,
+    "title": "half-life",
+    "img": "/images/hl_banner.jpg",
+    "categoria": "hl",
+    "descripcion": "Servidores Half-Life. Panel TCAdmin con acceso total. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
+  }
+]
+

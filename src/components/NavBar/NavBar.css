@@ -18,15 +18,12 @@
   justify-content: space-between;
   z-index: 1000;
 }
-
-.contenedor .Logo {
-  font-weight: bolder;
-  font-size: 20px;
-  color: #fff;
+.contenedor img {
+max-width: 150px;
 }
 
 .contenedor .navbar ul li {
-  position: relative;
+  /* position: relative; */
   float: left;
   list-style: none;
 }
@@ -47,22 +44,22 @@
 }
 
 .contenedor .navbar ul li ul {
-  position: absolute;
-  left: 0;
+  /* position: absolute; */
+  /* left: 0;
   width: 200px;
   background: #fff;
-  display: none;
+  display: none; */
 }
 
-.contenedor .navbar ul li ul li {
+/* .contenedor .navbar ul li ul li {
   width: 100%;
   border-top: 1px solid rgba(0,0,0,.1);
-}
+} */
 
-.contenedor .navbar ul li ul li ul {
+/* .contenedor .navbar ul li ul li ul {
   left: 200px;
   top: 0;
-}
+} */
 
 .contenedor .navbar ul li:focus-within > ul,
 .contenedor .navbar ul li:hover > ul {
@@ -83,13 +80,12 @@
 }
 
 @media (max-width:991px) {
-  body {
+  /* body {
     position: fixed;
-  }
+  } */
 
   .contenedor{
     padding: 20px;
-    /* position: fixed; */
   }
 
   .contenedor label {
@@ -111,7 +107,7 @@
   }
 
   .contenedor .navbar ul li ul {
-    position: relative;
+    /* position: relative; */
     width: 100%;
   }
 
