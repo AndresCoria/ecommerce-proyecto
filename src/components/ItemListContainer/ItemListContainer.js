@@ -3,33 +3,33 @@ import ItemCount from '../ItemCount/ItemCount'
 import ItemList from '../ItemList/ItemList'
 import Title from '../Title/Title'
 import products from '../../api.json'
+import { useParams } from "react-router-dom";
 
 
 const ItemListContainer = () => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
+  let greeting = 'Alojamiento de Servidores de Juegos'
+  const {categoriaId} = useParams();
 
 
   useEffect(() => {
 
-    const getData = new Promise((resolve, reject) => {
+    const getData = new Promise((resolve) => {
       setTimeout(() => {
         resolve(products);
       }, 3000)
     });
-    getData.then(res => setData(res))
-
-
-  }, [])
-
-
-  let greeting = 'Alojamiento de Servidores de Juegos'
+    if(categoriaId) {
+      getData.then(res => setData(res.filter(products => products.categoria === categoriaId)));
+    }else {
+      getData.then(res => setData(res));
+    }
+  }, [categoriaId])
 
   const onAdd = (cantidad) => {
     console.log(`agregaste ${cantidad} unidades`);
   }
-
-
   return (
     <div>
       <Title greeting={ greeting }/>

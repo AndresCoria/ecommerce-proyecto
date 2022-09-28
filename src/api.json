@@ -4,32 +4,80 @@
     "id": 1,
     "title": "counter-strike 1.6",
     "img": "/images/cs_banner.jpg",
-    "categoria": "1.6",
+    "categoria": "cs1.6",
+    "descripcion": "Servidores de Counter Strike 1.6 de 300 fps. Panel TCAdmin con acceso total. Rehlds, Metamod, Regame y AmxmodX actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques, acceso Rcon y soporte las 24hs"
+  },
+  {
+    "price": 1000,
+    "id": 2,
+    "title": "counter-strike 1.6",
+    "img": "/images/cs_banner.jpg",
+    "categoria": "cs1.6",
+    "descripcion": "Servidores de Counter Strike 1.6 de 500 fps. Panel TCAdmin con acceso total. Rehlds, Metamod, Regame y AmxmodX actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques, acceso Rcon y soporte las 24hs"
+  },
+  {
+    "price": 1500,
+    "id": 3,
+    "title": "counter-strike 1.6",
+    "img": "/images/cs_banner.jpg",
+    "categoria": "cs1.6",
     "descripcion": "Servidores de Counter Strike 1.6 de 1000, 500 y 300 fps. Panel TCAdmin con acceso total. Rehlds, Metamod, Regame y AmxmodX actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques, acceso Rcon y soporte las 24hs"
   },
   {
     "price": 500,
-    "id": 2,
+    "id": 4,
     "title": "counter-strike: source",
     "img": "/images/css_banner.jpg",
     "categoria": "css",
-    "descripcion": "Servidores de Counter Strike Source de 100 y 64 Tics. Panel TCAdmin con acceso total. Sourcemod, Metamod Source actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
+    "descripcion": "Servidores de Counter Strike Source de 64 Ticks. Panel TCAdmin con acceso total. Sourcemod, Metamod Source actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
+  },
+  {
+    "price": 1000,
+    "id": 5,
+    "title": "counter-strike: source",
+    "img": "/images/css_banner.jpg",
+    "categoria": "css",
+    "descripcion": "Servidores de Counter Strike Source de 100 Ticks. Panel TCAdmin con acceso total. Sourcemod, Metamod Source actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
   },
   {
     "price": 500,
-    "id": 3,
+    "id": 6,
     "title": "counter-strike: global offensive",
     "img": "/images/csgo_banner.jpg",
     "categoria": "csgo",
-    "descripcion": "Servidores de Counter Strike Global Offensive de 128, 100 y 64 Tics. Panel TCAdmin con acceso total. Sourcemod, Metamod Source actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
+    "descripcion": "Servidores de Counter Strike Global Offensive de 64 Ticks. Panel TCAdmin con acceso total. Sourcemod, Metamod Source actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
+  },
+  {
+    "price": 1000,
+    "id": 7,
+    "title": "counter-strike: global offensive",
+    "img": "/images/csgo_banner.jpg",
+    "categoria": "csgo",
+    "descripcion": "Servidores de Counter Strike Global Offensive de 100 Ticks. Panel TCAdmin con acceso total. Sourcemod, Metamod Source actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
+  },
+  {
+    "price": 1500,
+    "id": 8,
+    "title": "counter-strike: global offensive",
+    "img": "/images/csgo_banner.jpg",
+    "categoria": "csgo",
+    "descripcion": "Servidores de Counter Strike Global Offensive de 128 Ticks. Panel TCAdmin con acceso total. Sourcemod, Metamod Source actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
   },
   {
     "price": 500,
-    "id": 4,
+    "id": 9,
     "title": "half-life",
     "img": "/images/hl_banner.jpg",
     "categoria": "hl",
-    "descripcion": "Servidores Half-Life. Panel TCAdmin con acceso total. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
+    "descripcion": "Servidores Half-Life de 100 ticks Panel TCAdmin con acceso total. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
+  },
+  {
+    "price": 1000,
+    "id": 10,
+    "title": "half-life",
+    "img": "/images/hl_banner.jpg",
+    "categoria": "hl",
+    "descripcion": "Servidores Half-Life de 128 ticks Panel TCAdmin con acceso total. Fastdl, acceso ftp y Sistema de mitigacion de ataques Ddos, acceso Rcon y soporte las 24hs"
   }
 ]
 

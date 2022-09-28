@@ -1,21 +1,23 @@
 import React, { useState, useEffect} from 'react'
 import ItemDetail from '../ItemDetail/ItemDetail'
+import { useParams } from "react-router-dom";
+import detalles from '../../api.json'
 
-const detalle = { id: 7, img: "/images/cs_detalle.jpg", title: "Counter Strike 1.6", "descripcion": "Servidores de Counter Strike 1.6 de 1000, 500 y 300 fps. Panel TCAdmin con acceso total. Rehlds, Metamod, Regame y AmxmodX actualizados. Fastdl, acceso ftp y Sistema de mitigacion de ataques, acceso Rcon y soporte las 24hs",price: 500};
 
 
 const ItemDetailContainer = () => {
 
   const [data, setData] = useState({});
+  const {detalleId} = useParams();
 
   useEffect(() => {
     const getData = new Promise(resolve => {
       setTimeout(() => {
-        resolve(detalle);
+        resolve(detalles);
       }, 3000);
     });
 
-      getData.then(res => setData(res));
+      getData.then(res => setData(res.find(detalle => detalle.id === parseInt(detalleId))));
   }, [])
 
   return (
