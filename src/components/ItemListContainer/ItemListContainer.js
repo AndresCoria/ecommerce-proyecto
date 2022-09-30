@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import ItemCount from '../ItemCount/ItemCount'
 import ItemList from '../ItemList/ItemList'
 import Title from '../Title/Title'
 import products from '../../api.json'
@@ -7,7 +6,7 @@ import { useParams } from "react-router-dom";
 
 
 const ItemListContainer = () => {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
   let greeting = 'Alojamiento de Servidores de Juegos'
   const {categoriaId} = useParams();
@@ -25,15 +24,11 @@ const ItemListContainer = () => {
     }else {
       getData.then(res => setData(res));
     }
-  }, [categoriaId])
+  }, [categoriaId]);
 
-  const onAdd = (cantidad) => {
-    console.log(`agregaste ${cantidad} unidades`);
-  }
   return (
     <div>
       <Title greeting={ greeting }/>
-      <ItemCount initial={1} stock={5} onAdd={onAdd}/>
       <ItemList data={data} />
     </div>
   )
