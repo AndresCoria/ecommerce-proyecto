@@ -17,16 +17,5 @@ const Item = ( {info} ) => {
 
 export default Item
 
-{/* <>
-  <img className='imagen' src={ info.img }/>
-</>
-<>
-  <p>{ info.title }</p>
-</>
-<>
-  <p>${info.price}</p>
-</>
-<>
-  <button>Ver Mas Detalles</button>
-</> */}
+
 
