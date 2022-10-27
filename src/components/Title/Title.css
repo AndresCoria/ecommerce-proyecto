@@ -4,7 +4,6 @@ h1 {
   text-align: center;
 }
 
-
 @media (max-width:991px) {
   h1 {
     margin-top: 65%;

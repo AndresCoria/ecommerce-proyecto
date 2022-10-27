@@ -23,7 +23,6 @@ max-width: 150px;
 }
 
 .contenedor .navbar ul li {
-  /* position: relative; */
   float: left;
   list-style: none;
 }
@@ -42,18 +41,6 @@ max-width: 150px;
   border: 1px solid cyan;
   color: #fff;
 }
-
-
-
-/* .contenedor .navbar ul li ul li {
-  width: 100%;
-  border-top: 1px solid rgba(0,0,0,.1);
-} */
-
-/* .contenedor .navbar ul li ul li ul {
-  left: 200px;
-  top: 0;
-} */
 
 .contenedor .navbar ul li:focus-within > ul,
 .contenedor .navbar ul li:hover > ul {
@@ -74,9 +61,6 @@ max-width: 150px;
 }
 
 @media (max-width:991px) {
-  /* body {
-    position: fixed;
-  } */
 
   .contenedor{
     padding: 20px;
@@ -101,7 +85,6 @@ max-width: 150px;
   }
 
   .contenedor .navbar ul li ul {
-    /* position: relative; */
     width: 100%;
   }
 
